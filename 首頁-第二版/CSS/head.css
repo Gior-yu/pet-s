@@ -745,6 +745,7 @@ h1 {
     top: 38px;
     right: 140px;
 }
+
 .sweet-hrr {
     width: 100px;
     transform: rotate(90deg);
@@ -939,23 +940,21 @@ h1 {
     display: flex;
 }
 
-.list img {
-    width: 24px;
-    height: 24px;
-}
-
 .list p {
     font-size: 18px;
-    color: #FFE8B7;
+    color: #615F58;
     letter-spacing: 1px;
     margin-left: 20px;
 }
 
-.lineid {
-    width: 350px;
-    height: 24px;
-    font-size: 18px;
-    color: #FFE8B7;
+.list i {
+    color: #615F58;
+}
+
+.call {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #615F58;
     letter-spacing: 1px;
 }
 
@@ -976,24 +975,34 @@ h1 {
 }
 
 .footer-media i {
+    width: 42px;
+    height: 50px;
     color: #ffffff;
     cursor: pointer;
 }
 
-.footer-media i:nth-child(1):hover  {
+.footer-media i:nth-child(1):hover {
     color: #0866FF;
 
-}.footer-media i:nth-child(2):hover  {
-    color: #00CB42;
-
-}.footer-media i:nth-child(3):hover  {
-    color: #00CB42;
 }
 
-.footer-media i:nth-child(4):hover  {
-    color: #00CB42;
+.footer-media i:nth-child(2):hover {
+
+    height: 48px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: linear-gradient(to right top, #F7AE4E, #B930AF);
+
 }
 
+.footer-media i:nth-child(3):hover {
+    color: #000000;
+    text-shadow: 4px 4px 1px #ffffff;
+}
+
+.footer-media i:nth-child(4):hover {
+    color: #00CB42;
+}
 
 
 .footer-end {
@@ -1033,4 +1042,3 @@ h1 {
 .icon-p i:nth-child(1):hover {
     color: #00CB42;
 }
-
